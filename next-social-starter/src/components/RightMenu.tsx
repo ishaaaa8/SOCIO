@@ -14,8 +14,8 @@ function RightMenu({userId}: {userId: string}) {
         <UserMediaCard userId={userId}/>
         </>
       ): null}
-      <UserInfoCard userId={userId}/>
-      <UserMediaCard userId={userId}/>
+      {/* <UserInfoCard userId={userId}/>
+      <UserMediaCard userId={userId}/> */}
       <FriendRequests/>
       <Birthdays/>
       <Ad size='md'/>
